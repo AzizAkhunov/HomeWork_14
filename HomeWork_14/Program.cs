@@ -29,7 +29,7 @@ public class Program
     {
         GenericCollection<Person> result = new GenericCollection<Person>();
 
-        Person Object = result.Add(new Person { Id = 1, Name = "Alim" });
+        Person Object = result.Add(new Person { Id = 1, Name = "Aziz" });
 
         Console.WriteLine(Object.Id);
     }
